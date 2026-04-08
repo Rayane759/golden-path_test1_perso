@@ -1,0 +1,126 @@
+# site_name: Platform Engineering
+# site_url: https://platform-engineering.gitlab-pages.insee.fr
+
+# nav:
+#   - Introduction: introduction/index.md
+#   - Etat des lieux: 
+#     - Contexte: 
+#       - contexte/index.md
+#     - Panorama:
+#       - Acteurs à disposition des développeurs: contexte/panorama/equipes.md
+#       - Outils et technologies en place au seins du DPII: contexte/panorama/outils.md
+#       - Outils de la stack par couches fonctionnelles: contexte/panorama/outils-fonctionnels.md
+#       - Rôles et responsabilités autour de l’infrastructure et du delivery: contexte/panorama/responsabilite.md
+#   - Recueil des besoins: 
+#       - Recueil : 
+#         - constat-terrain/index.md
+#       - Clients: 
+#         - constat-terrain/personnas.md
+#       - Protocole: 
+#         - Protocole : constat-terrain/protocole/protocole.md
+#         - Scenario:
+#           - dev: constat-terrain/protocole/interviews/devs/devs.md
+#           - archis: constat-terrain/protocole/interviews/archis/archi.md
+#           - secu: constat-terrain/protocole/interviews/secu/secu.md
+#       - Irritants: constat-terrain/irritiants-&-points-frictions.md
+#       - Besoins : constat-terrain/besoins.md
+#       - Impacts: constat-terrain/impacts.md
+#       - Annexe:
+#         - Sondage DevExp: constat-terrain/annexes/annexe-1-analyse-devexp.md
+#         - Analyse des demandes les plus courantes: constat-terrain/annexes/annexe-2-analyse-courante.md
+#         - Dépendances entre équipes: constat-terrain/annexes/annexe-4-dependance-equipe.md
+#         - Focus Groupe: 
+#           - SNDIL: constat-terrain/annexes/annexe-3A-focus-groupe-sndil.md
+#           - SNDIN: constat-terrain/annexes/annexe-3B-focus-groupe-sndin.md
+#           - SNDIP: constat-terrain/annexes/annexe-3C-focus-groupe-sndip.md
+#           - SNDIO: constat-terrain/annexes/annexe-3D-focus-groupe-sndio.md
+
+
+#   - PlatformEngineering:
+#     - C'est quoi ? : pfe/index.md
+#     - Product Vision Board: pfe/product_board.md
+#     - Proposition:
+#       - ADR Organisation cible: pfe/adr/annexe1/annexe-1-organisation-plateforme.md
+#       - ADR Interaction entre développeurs, Platform (DevEx) et Capability Teams : pfe/adr/annexe1/annexe-1-interaction-dev-platform.md
+#       - ADR Périmètre de la plateforme: pfe/adr/annexe2/annexe-2-perimetre-plateforme.md
+#       - ADR Format de la plateforme: pfe/adr/annexe3/annexe-3-format-plateforme.md
+#       - ADR Documentation : pfe/adr/annexe5/documentation.md
+#       - ADR Critère adoption: pfe/adr/annexe4/reflexion.md
+#   - Roadmap: roadmap/index.md
+#   - Autres:
+#     - Comitologie: 
+#       - autres/comitologie/reunion_lancement.md
+#     - Présentations: 
+#       - autres/presentations/index.md
+#     - Animation:
+#         - PlatformEngineering Games: ./autres/focusgroupe/index.md
+
+#   - Golden Path (Stage) :
+#     - Qu'est ce qu'un Golden Path ? : 
+#       - golden_path/definition/index.md
+#     - Organisation :
+#       - golden_path/schema/index.md
+#     - Comment construire un bon Golden Path ? :
+#       - golden_path/comment_faire/index.md
+#     - De quoi est constitué un Golden Path ? :
+#       - golden_path/composants/index.md
+#     - Concrètement : 
+#       - golden_path/concret/index.md
+
+# plugins:
+#   - awesome-pages
+#   - search
+#   - git-revision-date-localized
+#   - glightbox
+#   - techdocs-core
+# theme:
+#   name: material
+#   language: fr
+#   palette:
+#     # Palette toggle for light mode
+#     - media: "(prefers-color-scheme: light)"
+#       scheme: default
+#       toggle:
+#         icon: material/brightness-7 
+#         name: Switch to dark mode
+#       primary: light-blue
+#       accent: blue
+#     # Palette toggle for dark mode
+#     - media: "(prefers-color-scheme: dark)"
+#       scheme: slate
+#       toggle:
+#         icon: material/brightness-4
+#         name: Switch to light mode
+#       primary: indigo
+#       accent: blue
+#   custom_dir: overrides
+#   features:
+#     - navigation.instant
+#     - navigation.tabs
+#     - navigation.tabs.sticky
+#     - navigation.indexes
+#     - announce.dismiss
+#     - navigation.sections
+#     - navigation.path
+#     - navigation.top
+# markdown_extensions:
+#   - md_in_html
+#   - attr_list
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:material.extensions.emoji.twemoji
+#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+#   - admonition
+#   - pymdownx.details
+#   - pymdownx.superfences
+#   - pymdownx.critic
+#   - pymdownx.caret
+#   - pymdownx.keys
+#   - pymdownx.mark
+#   - pymdownx.tilde
+#   - pymdownx.tasklist:
+#       custom_checkbox: true
+#   - pymdownx.tabbed:
+#       alternate_style: true
+# extra_css:
+#   - assets/css/extra.css
+
