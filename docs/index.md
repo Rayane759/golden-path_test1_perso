@@ -59,4 +59,4 @@ Vérifiez que vous disposez des accès suivants avant de démarrer :
 
 ---
 
-**Prêt ?** Commencez par la [Phase 1 — Dépôt GitLab](guide/01-depot-gitlab.md).
+**Prêt ?** Commencez par la [Phase 1 — Dépôt GitLab](guide/1-depot.md).
